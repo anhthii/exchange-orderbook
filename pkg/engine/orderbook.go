@@ -44,7 +44,7 @@ func NewOrderBook() *OrderBook {
 
 func (b *OrderBook) AddProduct(productId string) {
 	if b.productCount >= 1 {
-		// :(( we only support 1 product for now due to time constraint and simplicity
+		// :(( we only support 1 product for now due to time constraint and for the sake of simplicity
 		panic("Only support 1 product")
 	}
 
