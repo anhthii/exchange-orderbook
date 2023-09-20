@@ -132,7 +132,7 @@ func TestOrderBook(t *testing.T) {
 	assert.Equal(t, created.Filled, 0.0)
 }
 
-func TestSortLimitsBid(t *testing.T) {
+func TestSortLimits(t *testing.T) {
 	// generate a list of mocks limits
 	bidLimits := []*Limit{
 		{Price: 100.0},
