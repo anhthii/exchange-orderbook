@@ -9,8 +9,6 @@
 
 ## Run program
 
-I assum the reviewer has already installed `go` and doesn't have access to internet so no 3rd package was used, just simply run the program with
-
 ```
 go run *.go
 ```
